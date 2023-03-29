@@ -32,7 +32,7 @@ useEffect( ()=>{
         // console.log('added product', addedProduct);
     }
     // step 5: set the cart
-    setCart(savedCart);
+    setCart(savedCart); 
 }, [products])
 
 const handleAddToCart = (product) => {
