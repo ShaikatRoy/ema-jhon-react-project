@@ -10,7 +10,7 @@ import { faArrowAltCircleRight} from '@fortawesome/free-solid-svg-icons'
 
 const Orders = () => {
     const savedCart = useLoaderData();
-    console.log(savedCart);
+    // console.log(savedCart);
     const [cart, setCart] = useState(savedCart)
 
 
